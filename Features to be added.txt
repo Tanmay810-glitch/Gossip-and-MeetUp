@@ -1,0 +1,19 @@
+Follow feature - If I follow you, it will show your posts first in your feed. You can show posts by last week, last month, all from your followers
+
+Post feature 
+
+Story feature
+
+Chat feature - Once you are friend, you can chat. If you are a friend or a follower, you can chat.
+
+AI post recommendation
+
+Comment Feature
+
+Tag Feature
+
+Close Friend Feature
+
+
+
+
