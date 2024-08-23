@@ -1,3 +1,6 @@
+import axios from 'axios'
+import { jwtDecode } from 'jwt-decode';
+
 export const sidebarLinks = [
     {
       imgURL: "/assets/icons/home.svg",
@@ -48,3 +51,11 @@ export const sidebarLinks = [
       label: "Create",
     },
   ];
+
+  export const createOrGetUser = async(response: any) => {
+    const decoded: { name: string, picture: string, sub: string} = jwtDecode(response.credential)
+
+    const {name, picture, sub} = decoded
+
+    console.log(name, picture, sub);
+  }
